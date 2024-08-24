@@ -12,9 +12,9 @@
 def buscarMaxValue(lista):
     paso = lista[0]
     index = 0
-    for x in range(1, len(lista)):
-        if lista[x] > paso:
-            paso = lista[x]
+    for x, valor in enumerate(lista):
+        if valor > paso:
+            paso = valor
             index = x
     return [paso, index]
 
