@@ -2,7 +2,8 @@
 # es decir, un diccionario dentro de otro diccionario
 # Ejemplo:
 estudiantes = {
-    'Peter': {
+    # En este diccionario, los nombres son la clave, para subdiccionarios
+    'Peter': {  
         'age': 10, 
         'address': 'Lisbon'
     },
@@ -15,4 +16,6 @@ estudiantes = {
         'address': 'Lisbon'
     },
 }
-print(estudiantes)
+# Determinar tamaño de neustro diccionario
+# COn la función len() podemos determinar el tamaño de nuestro diccionario
+print(len(estudiantes))
